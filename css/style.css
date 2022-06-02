@@ -175,7 +175,7 @@ p {
 .heroSection {
     top: 0;
     background-image: linear-gradient(#111111, #2e2b29);
-    height: 110vh;
+    height: 95vh;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -183,10 +183,10 @@ p {
 
 .arch {
     background-color: #00199F;
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
-    border-top-left-radius: 100vmax;
-    border-top-right-radius: 100vmax;
+    border-top-left-radius: 120vh;
+    border-top-right-radius: 120vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -200,7 +200,7 @@ p {
     align-items: center;
     height: 50vh;
     width: 80vw;
-    padding-top: 20vh;
+    padding-top: 15vh;
 }
 
 .tabTop {
@@ -237,7 +237,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2vh;
+    gap: -4vh;
     padding-left: 0vw;
 } 
 
@@ -255,7 +255,7 @@ p {
 }
 
 #headshot {
-    width: 80%;
+    width: 90%;
     height: auto;
     padding-top: -3vh;
 }
@@ -266,10 +266,9 @@ p {
 }
 
 button {
-    margin-top: 3vh;
     background-color: #00199F;
     border: 0;
-    height: 8vh;
+    height: 7vh;
     width: 22vw;
     border-radius: 6vh;
     font-family: 'HK Grotesk';
@@ -314,6 +313,8 @@ button img {
 .mySkills button {
     width: 18vw;
     background-color: #282828;
+    margin-top: 2vh;
+    border-radius: 2vh;
 }
 
 .skillsGraphic {
